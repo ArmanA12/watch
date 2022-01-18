@@ -1,0 +1,14 @@
+{ 
+    "name" : "timeSee",
+    "version" : "0.0.1",
+    "manifest_version":2,
+
+    "browser_action":{
+         "default_popup":"popup.html",
+          "default_icon":"logot.jpg"
+    },
+    "icons":{
+        "128":"logot.jpg"
+    },
+    "permissions":["activeTab"]
+}

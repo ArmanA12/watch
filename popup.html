@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timeSee</title>
+</head>
+<style>
+    body{
+
+        background-color: rgb(5, 5, 5);
+        color: blanchedalmond;
+        font-size:  35px;
+         position: absolute;
+        left:  100px;
+     border-radius: 40px solid rgb(218, 209, 209);
+       width: 330px;
+       height: 330px;
+       justify-content: center;
+       display: flex;
+    }
+    .clock{
+        border-radius: 4px solid rgb(125, 140, 182);
+    }
+</style>
+
+<body  onload="updateclock(); setInterval('updateclock()',1000)" >
+    <div id="clock">
+    </div>
+    
+</body>
+<script  
+ src="clock.js ">
+    
+</script>
+</html>
